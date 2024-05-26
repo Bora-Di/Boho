@@ -6,14 +6,11 @@
   align-items: center;
   justify-content: space-between;
   width: auto;
-  margin-top: 15%;
+  margin: 12% 10%;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .content {
-
   display: flex;
   flex-wrap: wrap;
   align-items: start;
@@ -25,36 +22,21 @@
 .title {
   font-size: 60px;
   font-weight: 600;
-  margin-bottom: 33px;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-.title {
-  font-size: 60px;
-  font-weight: 600;
   margin-bottom: 2%;
-  background: linear-gradient(320deg, rgba(201, 228, 255, 0.445) 0%, rgb(255, 255, 255) 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+ 
 }
+
 .titlename {
   font-size: 40px;
   font-weight: 600;
-  margin-bottom: 2%;
-  background: linear-gradient(320deg, rgba(0, 204, 255, 0.26) 0%, rgba(0, 204, 255, 0.918) 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  margin-bottom: 3%;
+  color:  #00ccff;
 }
 
 .description {
   font-size: 20px;
   font-family: var(--font-roboto);
-  margin-bottom: 2%;
+  margin-bottom: 10%;
   width: 100%;
 }
 .contactBtn {
@@ -63,7 +45,7 @@
   text-decoration: none;
   background: rgb(6,40,75);
   background: linear-gradient(320deg, rgba(6, 40, 75, 0.705) 0%, rgba(0, 204, 255, 0.575) 100%);
-  box-shadow: 0 0 10px 0   rgba(0, 204, 255, 0.226);
+  box-shadow: 0 0 8px 0   rgba(0, 204, 255, 0.404);
   border:none;
   color: var(--color-text);
   border-radius: 2rem;
