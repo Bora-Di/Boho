@@ -3,7 +3,6 @@
 .container {
   display: grid;
   color: var(--color-text);
-  margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -23,10 +22,11 @@
   display: flex;
   flex-direction: row;
   margin-top: 14px;
+  gap: 30px;
 }
 
 .skills {
-  width: 45%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -43,7 +43,7 @@
   background: rgb(6,40,75);
   background: linear-gradient(360deg, rgba(6, 40, 75, 0.705) 0%, rgba(0, 204, 255, 0.575) 100%);
   box-shadow: 0 0 10px 0   rgba(0, 204, 255, 0.226);
-  border-radius: 25%;
+  border-radius: 20PX;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,7 +61,7 @@
 }
 
 .history {
-  width: 45%;
+  width:80%;
   display: flex;
   flex-direction: column;
   gap: 40px;
