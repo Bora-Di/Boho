@@ -8,6 +8,10 @@
     "imageSrc": "skills/css.png"
   },
   {
+    "title": "Javascript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
@@ -16,40 +20,16 @@
     "imageSrc": "skills/node.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
-  },
-  {
-    "title": "Javascript",
-    "imageSrc": "skills/javascript.png"
+    "title": "Angular",
+    "imageSrc": "skills/angular.png"
   },
   {
     "title": "Java",
     "imageSrc": "skills/java.png"
   },
   {
-    "title": "Laravel",
-    "imageSrc": "skills/laravel.png"
-  },
-  {
-    "title": "Angular",
-    "imageSrc": "skills/angular.png"
-  },
-  {
-    "title": "Git",
-    "imageSrc": "skills/git.png"
-  },
-  {
-    "title": "Photoshop",
-    "imageSrc": "skills/photoshop.png"
+    "title": "Spring Boot",
+    "imageSrc": "skills/springboot.png"
   },
   {
     "title": "Python",
@@ -60,7 +40,31 @@
     "imageSrc": "skills/PHP.png"
   },
   {
+    "title": "Laravel",
+    "imageSrc": "skills/laravel.png"
+  },
+  {
     "title": "MySQL",
     "imageSrc": "skills/MySQL.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "GraphQL",
+    "imageSrc": "skills/graphql.png"
+  },
+  {
+    "title": "Photoshop",
+    "imageSrc": "skills/photoshop.png"
   }
 ]

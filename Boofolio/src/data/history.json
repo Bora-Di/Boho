@@ -4,7 +4,7 @@
     "organisation": "Fiverr",
     "startDate": "2020",
     "endDate": "Present",
-    "experiences": [""],
+    "experiences": ["Accomplished over 50 projects with 5-star, showcasing expertise in custom designs and illustrations.","Known for exceptional client collaboration skills and a proven track record of meeting deadlines with precision."],
     "imageSrc": "history/google.png"
   },
   {
@@ -12,7 +12,7 @@
     "organisation": "HiziConnect",
     "startDate": "feb, 2022",
     "endDate": "june, 2022",
-    "experiences": [","],
+    "experiences": ["Development of a web application for managing educational institutions, aiming to facilitate the daily operations of educational bodies by automating administrative tasks."],
     "imageSrc": "history/microsoft.png"
   }
 ]

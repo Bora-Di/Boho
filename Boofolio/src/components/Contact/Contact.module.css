@@ -4,24 +4,28 @@
   color: var(--color-text);
   margin-top: 10%;
   background-color: var(--color-bg);
-  display: flex;
-  flex-direction: row;
+  display: grid;
   justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
+  width: auto;
+  padding: 5% 10%;
   gap: 10px;
 }
 
 .text h2 {
-  font-size: 80px;
+  color: var(--color-text);
+  font-size: 30px;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 1.75px;
+  justify-self: center;
+  text-transform: uppercase;
+  margin: 4%;
+
 }
 
 .text p {
-  font-size: 40px;
+  font-size: 16px;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 2px; 
 }
 
 .links {
@@ -35,13 +39,16 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 20px;
+}
+.link img{
+  width: 10%;
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 1.5px;
 }
