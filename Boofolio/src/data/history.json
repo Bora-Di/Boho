@@ -4,14 +4,16 @@
     "organisation": "Fiverr",
     "startDate": "2020",
     "endDate": "Present",
+    "location": "Freelance",
     "experiences": ["Accomplished over 50 projects with 5-star, showcasing expertise in custom designs and illustrations.","Known for exceptional client collaboration skills and a proven track record of meeting deadlines with precision."],
     "imageSrc": "history/google.png"
   },
   {
     "role": "Intern- Fullstack engineer",
     "organisation": "HiziConnect",
-    "startDate": "feb, 2022",
-    "endDate": "june, 2022",
+    "startDate": "2/2022",
+    "endDate": "6/2022",
+    "location": "Mohammadia, Morocco",
     "experiences": ["Development of a web application for managing educational institutions, aiming to facilitate the daily operations of educational bodies by automating administrative tasks."],
     "imageSrc": "history/microsoft.png"
   }

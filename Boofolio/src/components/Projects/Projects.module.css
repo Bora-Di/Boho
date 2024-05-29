@@ -12,6 +12,7 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
   justify-self: center;
+  color: var(--color-primary);
 }
 
 .projects {

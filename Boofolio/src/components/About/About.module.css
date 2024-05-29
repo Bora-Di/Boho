@@ -9,7 +9,7 @@
 }
 
 .title {
-  color: var(--color-text);
+  color: var(--color-primary);
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1.75px;
@@ -20,33 +20,42 @@
 
 .content {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
+  background: rgb(6,40,75);
+  background: linear-gradient(240deg, rgba(6, 40, 75, 0.267) 0%, rgba(0, 204, 255, 0.281) 100%);
+  box-shadow: 0 0 10px 0   rgba(0, 204, 255, 0.089);
   border-radius: 50px;
   padding: 60px;
   z-index: 1;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+
 }
 
+.imageContainer{
+  display: flex;
+}
 .aboutImage {
-  width: 35%;
+  width: 25%;
 }
 
 .aboutItems {
   color: var(--color-text);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
+  margin: 5%;
+  
 }
 
 .aboutItem {
+  
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 25px;
+  padding: 20px;
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
@@ -58,16 +67,25 @@
 }
 
 .aboutItem:hover {
-  background-size: 100% 100%;
+  color: var(--color-primary);
+}
+
+.aboutItem img {
+ width: 20%;
+ margin:5%;
 }
 
 .aboutItem h3 {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.aboutItem p {
+.aboutText p {
   font-size: 16px;
+  font-weight: 400;
+  color: var(--color-text);
+  text-align: justify;
+  text-indent: 5%;
 }
 
 @media screen and (max-width: 830px) {
