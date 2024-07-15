@@ -41,7 +41,19 @@
   align-items: center;
   gap: 20px;
 }
+.link a {
+  font-size: 30px;
+  color: var(--color-text);
+  text-decoration: none;
+} 
 
+.link:hover{
+  color: var(--color-primary);
+  transition: ease-in-out;
+  transition-duration: .2s;
+ }
+
+/*
 .link img{
   width: 10%;
 }
@@ -61,7 +73,7 @@
   transition: ease-in-out;
   transition-duration: .2s;
  }
-
+*/
 @media screen and (max-width: 830px) {
   .container {
     flex-wrap: wrap;
@@ -75,13 +87,8 @@
     align-items: center;
   }
 
-  .links {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
   .link a{
-   font-size: 12px;
+   font-size: 20px;
   }
 
 }

@@ -11,24 +11,20 @@ export const Contact = () => {
         <p>Feel free to reach out!</p>
       </div>
       <ul className={styles.links}>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:Bouchrahoumaidi99@gmail.com">Bouchrahoumaidi99@email.com</a>
+      <li className={styles.link}>
+          <a href="mailto:Bouchrahoumaidi99@gmail.com" className="fa fa-envelope fa-lg"></a>
         </li>
         <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/in/bouchra-houmaidi/">in/bouchra-houmaidi</a>
+          <a href="https://www.linkedin.com/in/bouchra-houmaidi/" className="fa fa-linkedin"></a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/Bora-Di">Github.com/Bora-Di</a>
+          <a href="https://github.com/Bora-Di" className="fa fa-github fa-lg"></a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/phone.png")} alt="phone icon" />
-          <a href="+212682700186">+212 682700186</a>
+          <a href="https://x.com/BouchraHoumaidi" className="fa fa-twitter fa-lg"></a>
+        </li>
+        <li className={styles.link}>
+          <a href="tel:+212682700186" className="fa fa-phone fa-lg"></a>
         </li>
       </ul>
     </footer>
