@@ -1,13 +1,29 @@
-import React, { useState } from "react";
-
+import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+    
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className={styles.navbar}>
+    <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
       <a className={styles.title} href="/">
         BoHo
       </a>
@@ -23,10 +39,10 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
           onClick={() => setMenuOpen(false)}
         >
-             <li>
+          <li>
             <a href="#home">Home</a>
           </li>
           <li>
@@ -39,13 +55,14 @@ export const Navbar = () => {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#certification">Certifications</a>
-          </li>
-          <li>
             <a href="#contact">Contact</a>
           </li>
-        </ul>
-      </div>
+       
+        
+        </ul> 
+        </div>
+        
+        
     </nav>
   );
 };
