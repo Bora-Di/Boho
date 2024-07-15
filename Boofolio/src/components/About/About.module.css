@@ -33,17 +33,19 @@
 }
 
 .imageContainer{
-  display: flex;
-}
-.aboutImage {
-  width: 25%;
+  display: flex;  
+
+  width: 100%;
+  justify-content: center;
 }
 
 .aboutItems {
   color: var(--color-text);
   display: flex;
-  flex-direction: row;
-  gap: 10px;
+  flex-direction: row;  
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   margin: 5%;
   
 }
@@ -67,12 +69,11 @@
 }
 
 .aboutItem:hover {
-  color: var(--color-primary);
+  background-color: var(--color-primary);
 }
 
 .aboutItem img {
- width: 20%;
- margin:5%;
+ width: 40%;
 }
 
 .aboutItem h3 {
