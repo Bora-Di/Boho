@@ -31,7 +31,7 @@
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 3%;
-  color:  #00ccff;
+  color:  var(--color-primary);
 }
 
 .description {
@@ -64,8 +64,8 @@
     padding: 1rem 2.8rem;
    
     background: transparent;
-    border-radius: 2rem;
-    border: .2rem solid rgba(0, 204, 255, 0.575);
+    border-radius: 1rem;
+    border: 3px solid var(--color-primary);
     font-size: 15px;
     color: var(--color-text);
     letter-spacing: .1rem;
@@ -75,16 +75,15 @@
 }
 
 .resumeBtn:hover {
-    background: rgb(6,40,75);
-    background: linear-gradient(20deg, rgba(6, 40, 75, 0.705) 0%, rgba(0, 204, 255, 0.575) 100%);
-    border:none;
+
+    background:var(--color-primary);
     color: var(--color-text);
 }
 
 .heroImg {
   width: 50%;
-  z-index: 1;}
-  /*animation-name: floating;
+  z-index: 1;
+  animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -111,7 +110,7 @@
   top: -128px;
   left: -10vw;
   border-radius: 764px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.411);
   filter: blur(100px);
   z-index: 0;
 }
@@ -125,11 +124,11 @@
   top: 246px;
   right: -25vw;
   border-radius: 764px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.411);
   filter: blur(100px);
   z-index: 0;
 }
-*/
+
 
 @media screen and (max-width: 1200px) {
   .container {
@@ -146,24 +145,25 @@
 @media screen and (max-width: 800px) {
   .container {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
     gap: 20px;
-    padding: 5%;
+    padding: 20%;
   }
 
   .title {
     font-size: 40px;
-    text-align: center;
+   
   }
 
   .titlename {
     font-size: 25px;
-    text-align: center;
+
   }
 
   .description {
     font-size: 16px;
-    text-align: center;
+   
     margin-bottom: 5%;
   }
 
@@ -185,6 +185,7 @@
 }
 
 @media screen and (max-width: 600px) {
+  
   .title {
     font-size: 30px;
   }

@@ -1,16 +1,16 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "demo": "https://www.example.com",
+    "title": "Artmebo",
+    "imageSrc": "projects/artmebo.png",
+    "description": "This is a project made to  show my artworks as a graphic designer.",
+    "demo": "https://artmebo.netlify.app/",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
+    "title": "GptClone",
+    "imageSrc": "projects/gpt.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "demo": "",
     "source": "https://www.github.com"
   },
   {
