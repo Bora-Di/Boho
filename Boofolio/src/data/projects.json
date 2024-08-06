@@ -2,23 +2,37 @@
   {
     "title": "Artmebo",
     "imageSrc": "projects/artmebo.png",
-    "description": "This is a project made to  show my artworks as a graphic designer.",
+    "description": "A dynamic art portfolio built with JavaScript, showcasing a curated collection of original drawings across diverse styles and themes. This project highlights my artistic range and technical skills.",
     "demo": "https://artmebo.netlify.app/",
     "source": "https://www.github.com"
   },
   {
     "title": "GptClone",
     "imageSrc": "projects/gpt.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+   "description": "A simple ChatGPT clone project that emulates basic conversational AI functionality. It allows for interactive dialogues and showcases fundamental natural language processing capabilities.",
     "demo": "",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Landing page",
+    "imageSrc": "projects/landing.png",
+    "description": "A Java desktop app for managing travel bookings, featuring intuitive tools for searching destinations and making reservations.",
+    "demo": "https://github.com/Bora-Di/Agence-de-voyage",
+    "source": "https://github.com/Bora-Di/Agence-de-voyage"
+  },
+  {
+    "title": "Climapp",
+    "imageSrc": "projects/weather.png",
+    "description": "A weather app made with JavaScript fetches data from an API like OpenWeatherMap and dynamically updates the interface. It includes an input for location and displays current weather conditions and forecasts.",
+    "demo": "https://github.com/Bora-Di/weather-App",
+    "source": "https://github.com/Bora-Di/weather-App"
+  },
+  {
+    "title": "RifVoyage",
+    "imageSrc": "projects/travel.png",
+    "description": "A Java desktop app for managing travel bookings, featuring intuitive tools for searching destinations and making reservations.",
+    "demo": "https://github.com/Bora-Di/Agence-de-voyage",
+    "source": "https://github.com/Bora-Di/Agence-de-voyage"
   }
 
 ]

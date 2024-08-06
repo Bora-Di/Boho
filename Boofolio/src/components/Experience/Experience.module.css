@@ -48,6 +48,12 @@
   width: 60px;
   height: 60px;
 }
+.skillImageContainer:hover{
+  background: rgb(6,40,75);
+  background: linear-gradient(180deg, rgba(6, 40, 75, 0.705) 0%, rgba(0, 204, 255, 0.575) 100%);
+  box-shadow: 0 0 10px 0   rgba(0, 204, 255, 0.226);
+  border-radius: 20PX;
+}
 
 .skillImageContainer img {
   width: 40px;
@@ -70,11 +76,17 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
+  border: 2px solid var(--color-primary);
   background: rgb(6,40,75);
-  background: linear-gradient(240deg, rgba(6, 40, 75, 0.705) 0%, rgba(0, 204, 255, 0.308) 100%);
+  background: linear-gradient(240deg, rgba(6, 40, 75, 0.705) 0%, rgba(0, 204, 255, 0.267) 100%);
   box-shadow: 0 0 10px 0   rgba(0, 204, 255, 0.089);
   border-radius: 10px;
   padding: 24px;
+}
+.historyItem:hover {
+  background: rgb(6,40,75);
+  background: linear-gradient(120deg, rgba(6, 40, 75, 0.705) 0%, rgba(0, 204, 255, 0.267) 100%);
+  box-shadow: 0 0 10px 0   rgba(0, 204, 255, 0.089);
 }
 
 .historyItem img {
